@@ -1,0 +1,23 @@
+{
+  "name": "chatapp_rooms",
+  "version": "1.0.0",
+  "description": "RealTime Chat App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Manal Aitouny",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "moment": "^2.30.1",
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.3",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
